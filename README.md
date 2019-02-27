@@ -5,9 +5,16 @@ first step
 
 plese run
 
+```ruby
 pod install
 
+```
+
+
+```ruby
 import LocationManager
+
+```
 
 ```ruby
 LocationManager.setLocationListenIsRecursive(isRecursive: true)
