@@ -9,7 +9,7 @@ pod install
 
 import LocationManager
 
-''' swift
+```ruby
 LocationManager.setLocationListenIsRecursive(isRecursive: true)
         LocationManager.setLocationUpdateTimeLimit(seconds: 5)
         LocationManager.setLocationAccuracy(meters: 10)
@@ -30,4 +30,4 @@ LocationManager.setLocationListenIsRecursive(isRecursive: true)
             print("Called on failure\n lat:\(error)")
             
         }
-'''
+```
