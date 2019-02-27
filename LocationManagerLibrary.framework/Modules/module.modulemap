@@ -1,0 +1,11 @@
+framework module LocationManagerLibrary {
+  umbrella header "LocationManagerLibrary.h"
+
+  export *
+  module * { export * }
+}
+
+module LocationManagerLibrary.Swift {
+    header "LocationManagerLibrary-Swift.h"
+    requires objc
+}
